@@ -59,6 +59,7 @@ Una vez acabada la instalación, se informa de que es recomendable eliminar la c
 Como administrador se modifica la apariencia del sitio web. El tema, se añaden módulos, el logo, etc.
 
 Para cambiar el tema hay que acceder a el directorio themes y añadir el directorio del nuevo tema que queremos agregar, en nuestro caso Bootstrap.
+
 ![BBDD - CMS](Img_tarea3G.png)
 
 
@@ -81,7 +82,8 @@ Para realizar la copia de la base de datos en el nuevo hosting, InfinityFree, co
 
 Hay que asegurarse que en el fichero .config/db_slave_server.inc.php tenemos que indicarle nuestra base de datos creada en InfinityFree, nombre de usuario y contraseña.
 Una vez realizado todo esto, tendremos nuestro CMS migrado y funcionando.
-![Copia BBDD](Img_imptExt.png)
+
+![Copia BBDD](Img_tarea4DE.png)
 
 
 

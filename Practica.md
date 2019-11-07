@@ -6,6 +6,7 @@
 2. Utilizar dos servicios de hosting distintos (tal cómo se explica en la práctica.)
 
 **Tarea 1: Elección del escenario que vas a montar**
+
 Indica que opción has elegido:
 - Dos servicios de hosting distintos
 

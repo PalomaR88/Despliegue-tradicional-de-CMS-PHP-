@@ -5,14 +5,14 @@
 1. Consideramos que el primer hosting compartido es tu servidor dedicado, posteriormente tendrás que hacer la migración a un hosting externo.
 2. Utilizar dos servicios de hosting distintos (tal cómo se explica en la práctica.)
 
-**Tarea 1: Elección del escenario que vas a montar**
+### Tarea 1: Elección del escenario que vas a montar
 
 Indica que opción has elegido:
 - Dos servicios de hosting distintos
 
 > Esta tarea consiste en instalar un CMS de tecnología PHP (elige un CMS que no hayas usado en la práctica anterior) en un hosting compartido. Los pasos que tendrás que dar los siguientes:
 
-**Tarea 2: Elección de un hosting compartido**
+### Tarea 2: Elección de un hosting compartido
 - Elige un servicio de hosting compartido con las caracterísitcas necesarias para instalar un CMS PHP (soporte PHP, base de datos,…)
 - Date de alta en el servicio.
 
@@ -24,7 +24,7 @@ El segundo hosting será InfinityFree. Tras registrarnos y validar el usuario a 
 
 
 
-**Tarea 3: Instalación del CMS PHP en el hosting compartido**
+### Tarea 3: Instalación del CMS PHP en el hosting compartido
 - Descarga en tu ordenado el CMS PHP que vas a instalar.
 - Sube los ficheros al hosting compartido por FTP.
 - Realizar la configuración de la base de datos de forma adecuada.
@@ -64,7 +64,7 @@ Para cambiar el tema hay que acceder a el directorio themes y añadir el directo
 
 
 
-**Tarea 4: Migración de la apliación web**
+### Tarea 4: Migración de la apliación web
 - Elige otro servicio de hosting para PHP.
 - Realiza el proceso de migración.
 

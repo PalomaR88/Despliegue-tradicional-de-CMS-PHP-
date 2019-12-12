@@ -35,32 +35,32 @@ El segundo hosting será InfinityFree. Tras registrarnos y validar el usuario a 
 > En este momento, muestra al profesor la aplicación funcionando. Entrega un documentación resumida donde expliques los pasos fundamentales para realizar esta tarea.
 
 Se descarga el CMS en la máquina y se pasa al hosting que se va a usar en primer lugar, x10hosting, por FTP. Para ello necesitamos la siguietne información que nos aporta el hosting:
-![Información para FTP](Img_tarea3A.png)
+![Información para FTP](images/Img_tarea3A.png)
 
 El fichero zip se descomprime y se utiliza Filezilla para pasar los ficheros que se han descomprimido:
 (Imagen de Filezilla)
 
 El resultado es el siguiente:
-![Ficheros en el directorio](Img_4C.png)
-![Ficheros en el directorio](Img_tarea3B.png)
+![Ficheros en el directorio](images/Img_4C.png)
+![Ficheros en el directorio](images/Img_tarea3B.png)
 
 En la pestaña Databases del hosting se crea la base de datos y el usuario, palomap2_presta, al que se le otorgan todos los privilegios.
-![Creacion BBDD](Img_tarea3C.png)
+![Creacion BBDD](images/Img_tarea3C.png)
 
 Accediendo al dominio que nos proporciona el hosting se comienza la instalación del CMS.
-![Intalacion CMS](Img_tarea3D.png)
+![Intalacion CMS](images/Img_tarea3D.png)
 
 Durante la instalación del nuevo CMS se introducen los datos de la base de datos que se ha creado anteriormente. 
-![BBDD - CMS](Img_tarea3E.png)
+![BBDD - CMS](images/Img_tarea3E.png)
 
 Una vez acabada la instalación, se informa de que es recomendable eliminar la carpeta "install" por seguridad.
-![BBDD - CMS](Img_tarea3F.png)
+![BBDD - CMS](images/Img_tarea3F.png)
 
 Como administrador se modifica la apariencia del sitio web. El tema, se añaden módulos, el logo, etc.
 
 Para cambiar el tema hay que acceder a el directorio themes y añadir el directorio del nuevo tema que queremos agregar, en nuestro caso Bootstrap.
 
-![BBDD - CMS](Img_tarea3G.png)
+![BBDD - CMS](images/Img_tarea3G.png)
 
 
 
@@ -71,27 +71,18 @@ Para cambiar el tema hay que acceder a el directorio themes y añadir el directo
 > Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. En este momento, muestra al profesor la aplicación funcionando en el otro hosting.
 
 En el primer hosting hay que hacer una copia de seguridad de la base de datos y del CMS. Para hacer la copia de seguridad de la base de datos en x10hosting se accede a la pestaña donde se guardan las bases de datos que tenemos y se selecciona la opción phpMyAdmin. En este sitio está la pestaña exportar, que la usamos con las opciones rápido, como métido de exportación, y SQL como formato. 
-![Copia BBDD](Img_tarea3H.png)
+![Copia BBDD](images/Img_tarea3H.png)
 
 A continuación, se realiza la copia del CMS. Para ello se copian todos los directorios y ficheros de nuestro CMS a nuestro equipo por FTP.
-![Copia BBDD](Imd_4D.png)
+![Copia BBDD](images/Imd_4D.png)
 
 
 Para realizar la copia de la base de datos en el nuevo hosting, InfinityFree, con la herramienta phpMyAdmin se importa la base de datos que se ha descargado del anterior hosting.
-![Copia BBDD](Img_imptExt.png)
+![Copia BBDD](images/Img_imptExt.png)
 
 Hay que asegurarse que en el fichero .config/db_slave_server.inc.php tenemos que indicarle nuestra base de datos creada en InfinityFree, nombre de usuario y contraseña.
 Una vez realizado todo esto, tendremos nuestro CMS migrado y funcionando.
 
-![Copia BBDD](Img_tarea4DE.png)
-
-
-
-
-
-
-
-
-
+![Copia BBDD](images/Img_tarea4DE.png)
 
 
